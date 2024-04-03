@@ -23,7 +23,7 @@ async function getUser() {
         response = await response.json();
 
         const { name, gender, email, picture } = response.results[0];
-            users.innerHTML += `<div id="user" class="bg-slate-700 p-3 rounded-lg">
+            users.innerHTML += `<div id="user" class="bg-slate-700 p-3 rounded-lg w-full sm:w-fit">
                 <div id="img" class="w-12 h-12 rounded-full bg-gray-400 md:w-16 md:h-16 overflow-hidden">
                 <img src = "${picture.large}" alt = 'user'/>
                 </div>
