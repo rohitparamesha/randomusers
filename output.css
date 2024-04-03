@@ -598,6 +598,10 @@ video {
   top: 9rem;
 }
 
+.top-\[130px\] {
+  top: 130px;
+}
+
 .z-0 {
   z-index: 0;
 }
