@@ -558,6 +558,10 @@ video {
   position: fixed;
 }
 
+.relative {
+  position: relative;
+}
+
 .left-1\/2 {
   left: 50%;
 }
@@ -582,6 +586,18 @@ video {
   top: 6rem;
 }
 
+.top-40 {
+  top: 10rem;
+}
+
+.top-32 {
+  top: 8rem;
+}
+
+.top-36 {
+  top: 9rem;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -596,6 +612,10 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
 }
 
 .flex {
